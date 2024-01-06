@@ -46,7 +46,7 @@ header img{
     margin-top: 2.2rem;
     align-self: center;
 }
-.header--titulo-parrafo{
+.header--paragraph-title{
     width: 88%;
     height: auto;
     min-width: 24.8rem;
@@ -54,16 +54,16 @@ header img{
     text-align: center;
     align-self: center;
 }
-.header--titulo-parrafo h1{
+.header--paragraph-title h1{
     font-size: 2.4rem;
     color: var(--just-white);
 }
-.header--titulo-parrafo p{
+.header--paragraph-title p{
     font-size:small;
     margin: 3rem auto 1rem auto;
     color: var(--soft-orange);
 }
-.header--titulo-parrafo .header-button{
+.header--paragraph-title .header-button{
     position: absolute;
     display: block;
     left: calc(50% - 13rem);
@@ -90,7 +90,7 @@ main{
     height: auto;
     background-color: var(--off-white);
 }
-.imagen-de-fondo{
+.background-image{
     width: auto;
     height: 19.5rem;
     padding: 16.8rem;
@@ -98,7 +98,7 @@ main{
     background-image: url("./assets/img/Bitcoin.svg");
     background-repeat: no-repeat;
 }
-.contenedor-texto{
+.text-container{
     position: relative;
     display: flex;
     flex-direction: column;
@@ -109,11 +109,11 @@ main{
     margin: 0 auto;
     text-align: center; 
 }
-.contenedor-texto h2{
+.text-container h2{
     font-size: 2.4rem;
     color: var(--black);
 }
-.contenedor-texto p{
+.text-container p{
     font-size:small;
     color:#757575;
     margin: 3rem auto 1rem auto;
@@ -350,7 +350,7 @@ main{
 .check{
     background-image: url(./assets/icons/check-circle.svg);
 }
-.imagen-fondo{
+.image{
     width: 100%;
     height: 38.7rem;
     min-width: 28rem;
@@ -360,13 +360,13 @@ main{
     background-repeat: no-repeat;
     text-align: center;
 }
-.imagen-fondo .titulo-imagen{
+.image .title-image{
     padding-top: 7rem;
     font-weight: bold;
     font-size: 2.4rem;
     color: var(--just-white);
 }
-.contenedor-planes{
+.container-plans{
     width: 90%;
     height: auto;
     margin: 0 auto;
@@ -376,17 +376,17 @@ main{
     background-color:var(--off-white);
     text-align: center;
 }
-.titulo-planes{
+.title-plans{
     font-size:2.4rem;
     font-weight: bolder;
     color: black;
 }
-.parrafo-planes{
+.paragraph-plans{
     margin: 2rem auto 5rem;
     font-size: 1.4rem;
     color:#757575;
 }
-.contenedor-scroll{
+.container-scroll{
     display: flex;
     height: 28rem;
     margin-bottom: 2rem;
@@ -395,7 +395,7 @@ main{
     overscroll-behavior-x: contain;
     scroll-snap-type: x proximity;
 }
-.contenedor-carta--promocion{
+.container-letter--promotion{
     position: relative;
     scroll-snap-align: center;
     width: 70%;
@@ -407,7 +407,7 @@ main{
     border-radius: 0.6rem;
     text-align: center;
 }
-.nombre-plan--anual{
+.plan-name--annual{
     position: absolute;
     width: 10rem;
     height: 3rem;
@@ -419,26 +419,26 @@ main{
     background-color: var(--bitcoin-orange);
     border-radius: 0.6rem;
 }
-.tiempo-pago{
+.time-payment{
     padding-top: 2rem;
     padding-bottom: 1rem;
     font-size: medium; 
 }
-.valor{
+.worth{
     font-size: 5.2rem;
     font-weight:bold;
 }
-.signo {
+.sign {
     font-size: medium;
     color:#757575;
     vertical-align: 2.5rem;
 }
-.descripcion-plan{
+.plan-description{
     margin-bottom: 1rem;
     font-size: 1.2rem;
     color: #757575;
 }
-.boton-tarjeta--plan{
+.button-card--plan{
     width: 15rem;
     height: 4rem;
     vertical-align: 1rem;
@@ -479,7 +479,7 @@ main{
 .second{
     background-color: var(--secondary-blue);
 }
-.nombre-plan--mensual{
+.plan-name--monthly{
     position: absolute;
     width: 10rem;
     height: 3rem;
@@ -491,7 +491,7 @@ main{
     background-color: var(--secondary-blue);
     border-radius: 0.6rem;
 }
-.boton-tarjeta--plan2{
+.card-button--plan2{
     width: 15rem;
     height: 4rem;
     vertical-align: 1rem;
@@ -511,7 +511,7 @@ main{
     vertical-align: text-bottom;
 }
 /*carta oferta*/
-.contenedor-carta--promocionoff{
+.container-letter--promotionoff{
     position: relative;
     scroll-snap-align: center;
     width: 70%;
@@ -523,7 +523,7 @@ main{
     border-radius: 0.6rem;
     color: var(--just-white);
 }
-.nombre-plan--off{
+.plan-name--off{
     position: absolute;
     width: 10rem;
     height: 3rem;
@@ -536,12 +536,12 @@ main{
     background-color: var(--grey);
     border-radius: 0.6rem;
 }
-.tiempo-pago--off{
+.time-payment--off{
     padding-top: 2rem;
     padding-bottom: 1rem;
     font-size: medium; 
 }
-.valor-off{
+.worth-off{
     font-size: 5.2rem;
     font-weight:bold;
 }
@@ -550,12 +550,12 @@ main{
     color:var(--off-white);
     vertical-align: 2.5rem;
 }
-.descripcion-plan--off{
+.description-plan--off{
     margin-bottom: 1rem;
     font-size: 1.2rem;
     color: #757575;
 }
-.boton-tarjeta--planoff{
+.button-card--planoff{
     width: 15rem;
     height: 4rem;
     vertical-align: 1rem;
